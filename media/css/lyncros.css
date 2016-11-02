@@ -1,0 +1,33 @@
+#app-wrapper .app-sidebar.sidebar-left .sidebar-header, .app-sidebar.sidebar-left .sidebar-footer{
+	background-color: #EA0000;
+}
+
+/*LOGIN & REGISTRATION*/
+.mautic-logo{
+	height: 150px;
+	background: #EA0000 url('/plugins/MauticGmailBundle/Assets/icons/icon128.png') no-repeat center center !important;
+	background-size: 80%;
+}
+.mautic-logo svg {display:none;}
+
+a.mautic-brand{
+	background: #EA0000 url('http://www.lyncros.com/sites/default/files/logo.png') no-repeat center center;
+	background-size: 80%;
+}
+
+.sidebar-minimized .app-sidebar.sidebar-left .sidebar-header {
+	padding: 0;
+}
+.sidebar-minimized a.mautic-brand {
+    background: #EA0000 url(/plugins/MauticGmailBundle/Assets/icons/icon128.png) no-repeat center center;
+    background-size: 80%;
+    margin: 0;
+}
+
+
+a.mautic-brand svg {display:none;}
+
+#app-footer{display:none;}
+section#main .text-center.text-muted {
+    display: none;
+}
